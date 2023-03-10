@@ -60,7 +60,7 @@ export default function App() {
           </div>
         </Route>
 
-        <Route path="/notlar">
+        <Route path={["/notlar/:id", "/notlar"]}>
           <div className="max-w-md mx-auto px-4 pb-8">
             <PostList />
           </div>
